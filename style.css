@@ -13,6 +13,7 @@
   border-radius: 10px;
   background-color: #424242;
   text-align: center;
+  padding: 0.5rem;
 }
 
 .scores {
@@ -29,6 +30,30 @@
   color: var(--red);
 }
 
+.blue {
+  color: var(--blue);
+}
+
+.green {
+  color: var(--green);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.pink {
+  color: var(--pink);
+}
+
 .increment-btn {
   border-radius: 10px;
   padding: 1rem 3rem;
@@ -36,9 +61,33 @@
   width: 50%;
   font-size: 1.5em;
   color: #e6e6e6;
-  margin: 0.5em;
+  margin: 0.5rem;
 }
 
 .brdr.red {
   border: 5px solid var(--red);
+}
+
+.brdr.blue {
+  border: 5px solid var(--blue);
+}
+
+.brdr.green {
+  border: 5px solid var(--green)
+}
+
+.brdr.purple {
+  border: 5px solid var(--purple)
+}
+
+.brdr.orange {
+  border: 5px solid var(--orange)
+}
+
+.brdr.yellow {
+  border: 5px solid var(--yellow)
+}
+
+.brdr.pink {
+  border: 5px solid var(--pink)
 }
