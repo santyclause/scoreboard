@@ -13,22 +13,22 @@
 <body>
   <main class="container-fluid">
     <section id="scores" class="row">
-      <div class="col container-fluid">
-        <section class="team row text">
+      <div class="col-12 col-md container-fluid">
+        <section class="team brdr row red">
           <div id="r-team-score" class="col-12 scores red">0</div>
           <div class="col-12 team-name red">RED TEAM</div>
-          <div class="col-12"><button class="increment-btn red">+1</button></div>
-          <div class="col-12"><button class="increment-btn red">+5</button></div>
-          <div class="col-12"><button class="increment-btn red">+10</button></div>
+          <div class="col-12"><button onclick="increment(1,'red')" class="increment-btn brdr red">+1</button></div>
+          <div class="col-12"><button onclick="increment(5,'red')" class="increment-btn brdr red">+5</button></div>
+          <div class="col-12"><button onclick="increment(10,'red')" class="increment-btn brdr red">+10</button></div>
         </section>
       </div>
-      <div class="col container-fluid">
-        <section class="team row">
+      <div class="col-12 col-md container-fluid">
+        <section class="team brdr row blue">
           <div id="b-team-score" class="col-12 scores blue">0</div>
           <div class="col-12 team-name blue">BLUE TEAM</div>
-          <div class="col-12"><button class="increment-btn blue">+1</button></div>
-          <div class="col-12"><button class="increment-btn blue">+5</button></div>
-          <div class="col-12S"><button class="increment-btn blue">+10</button></div>
+          <div class="col-12"><button onclick="increment(1,'blue')" class="increment-btn brdr blue">+1</button></div>
+          <div class="col-12"><button onclick="increment(5,'blue')" class="increment-btn brdr blue">+5</button></div>
+          <div class="col-12"><button onclick="increment(10,'blue')" class="increment-btn brdr blue">+10</button></div>
         </section>
       </div>
     </section>
