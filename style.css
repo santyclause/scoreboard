@@ -1,0 +1,39 @@
+:root {
+  --red: #ff0000;
+  --blue: #0000FF;
+  --green: #00FF00;
+  --purple: #FF00FF;
+  --orange: #ffbb00;
+  --yellow: #FFFF00;
+  --pink: #ffa0a0;
+}
+
+.team {
+  margin: 5%;
+  border-radius: 10px;
+  background-color: #424242;
+  text-align: center;
+}
+
+.scores {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.team-name {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.increment-btn {
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  background-color: #666666;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.increment-btn.red {
+  color: var(--red);
+  border: 2px solid var(--red);
+}
